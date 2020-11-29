@@ -278,6 +278,7 @@
                         } else {
                             showCodeBtn.style.display = 'none'
                         }
+
                         if (elm.pluginConfig.startup_mode) {
                             const mode = elm.pluginConfig.startup_mode;
                             execute(elm, mode, true)
