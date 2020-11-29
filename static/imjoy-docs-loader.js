@@ -9,7 +9,7 @@ window.setupImJoyDocs = function ({
         name: "ImJoy Docs",
         nameLink: '/',
         logo: "https://imjoy.io/static/img/imjoy-logo-black.svg",
-        basePath: '/',
+        basePath: prefix.startsWith('/') ? prefix : '/',
         loadSidebar: true,
         coverpage: false,
         auto2top: true,
