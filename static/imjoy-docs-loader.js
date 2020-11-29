@@ -1,4 +1,8 @@
-window.setupImJoyDocs = function ({prefix, repo, branch}) {
+window.setupImJoyDocs = function ({
+    prefix,
+    repo,
+    branch
+}) {
     branch = branch || 'master';
     prefix = prefix || '';
     window.$docsify = window.$docsify || {
@@ -58,7 +62,7 @@ window.setupImJoyDocs = function ({prefix, repo, branch}) {
         });
     }
     async function loadResources(prefix) {
-        
+
         for (let url of urls) {
             if (!url.startsWith('http')) {
                 url = prefix + url;
@@ -74,11 +78,11 @@ window.setupImJoyDocs = function ({prefix, repo, branch}) {
         }
     }
 
-    loadScript("/static/docsify-edit-on-github.js").then(() => {
-        if(repo){
+    loadScript(prefix + "/static/docsify-edit-on-github.js").then(() => {
+        if (repo) {
             window.$docsify.plugins = window.$docsify.plugins || []
             window.$docsify.plugins.push(EditOnGithubPlugin.create(
-                repo + '/blob/'+branch+'/'
+                repo + '/blob/' + branch + '/'
             ))
         }
         loadResources(prefix);
