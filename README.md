@@ -3,14 +3,14 @@
 ## Development
 ```
 npm i docsify-cli -g
-git clone https://github.com/oeway/imjoy-docs-starter
+git clone https://github.com/oeway/imjoy-starter
 ```
 
 ```
-cd imjoy-docs-starter
+cd imjoy-starter
 docsify serve
 ```
-Now go to: http://localhost:3000/local.html
+Now go to: http://localhost:3000/
 
 
 ### This is a live documentation
