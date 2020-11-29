@@ -18,6 +18,7 @@
     const GITHUB_USER = 'oeway'
     const GITHUB_REPO = 'imjoy-starter'
     const repo = `https://github.com/${GITHUB_USER}/${GITHUB_REPO}`;
+    const editGithubUrl = `https://github.com/${GITHUB_USER}/${GITHUB_REPO}/blob/master/`
     const LOCAL_DOMAINS = ["localhost", "127.0.0.1"];
     let prefix = ""
     let src = "/static/imjoy-docs-loader.js"
@@ -31,7 +32,8 @@
     s.onload = () => {
       setupImJoyDocs({
         repo,
-        prefix
+        prefix,
+        editGithubUrl
       })
     };
     document.head.appendChild(s);

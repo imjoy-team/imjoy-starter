@@ -1,9 +1,9 @@
 window.setupImJoyDocs = function ({
     prefix,
     repo,
-    branch
+    editGithubUrl,
+    alias
 }) {
-    branch = branch || 'master';
     prefix = prefix || '';
     window.$docsify = window.$docsify || {
         name: "ImJoy Docs",
@@ -16,6 +16,7 @@ window.setupImJoyDocs = function ({
         autoHeader: false,
         subMaxLevel: 4,
         maxLevel: 5,
+        alias: alias,
         repo: repo,
         homepage: '/README.md',
         search: {
@@ -79,10 +80,10 @@ window.setupImJoyDocs = function ({
     }
 
     loadScript(prefix + "/static/docsify-edit-on-github.js").then(() => {
-        if (repo) {
+        if (editGithubUrl) {
             window.$docsify.plugins = window.$docsify.plugins || []
             window.$docsify.plugins.push(EditOnGithubPlugin.create(
-                repo + '/blob/' + branch + '/'
+                editGithubUrl
             ))
         }
         loadResources(prefix);
