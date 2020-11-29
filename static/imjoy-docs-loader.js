@@ -17,7 +17,7 @@ window.setupImJoyDocs = function ({
         subMaxLevel: 4,
         maxLevel: 5,
         repo: repo,
-        homepage: prefix + '/README.md',
+        homepage: '/README.md',
         search: {
             paths: 'auto',
             placeholder: 'Search',
