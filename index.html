@@ -43,7 +43,9 @@
   </div>
   <script src="/imjoy-docs-starter/static/docsify-edit-on-github.js"></script>
   <script>
-    const repo = 'https://github.com/oeway/imjoy-docs-starter';
+    const GITHUB_USER = 'oeway'
+    const GITHUB_REPO = 'imjoy-docs-starter'
+    const repo = `https://github.com/${GITHUB_USER}/${GITHUB_REPO}`;
     window.$docsify = {
       name: "ImJoy",
       nameLink: '/',
@@ -56,7 +58,7 @@
       subMaxLevel: 4,
       maxLevel: 5,
       repo: repo,
-      homepage: '/README.md',
+      homepage: `/${GITHUB_REPO}/README.md`,
       search: {
         paths: 'auto',
         placeholder: 'Search',
