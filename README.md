@@ -2,8 +2,8 @@
 A Tutorial for Imjoy implmentation. With instruction of this tutorial, you can do Interactive Image Analysis with ImJoy and Jupyter Notebooks. You can practice by running the tutorial in Jupyter Notebooks or clicking the link and run in MyBinder or Google Colab. 
  
 ### Table of Contents
-- <a href='#installation'>Installation</a>
-- <a href='#imjoy jupyter extension'>Imjoy Jupyter Extension</a>
+- <a href='#installation-for-jupyter-notebook'>Installation</a>
+- <a href='#imjoy-jupyter-extension'>Imjoy Jupyter Extension</a>
 - <a href='#kaibu-jupyter-tutorial'>Kaibu Jupyter Tutorial</a>
 - <a href='#vitessce-image-viewer'>Vitessce Image Viewer</a>
 - <a href='#compare-images-demo'>Compare Images Demo</a>
