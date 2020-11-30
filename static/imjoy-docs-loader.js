@@ -2,7 +2,8 @@ window.setupImJoyDocs = function ({
     prefix,
     repo,
     editGithubUrl,
-    alias
+    alias,
+    homepage
 }) {
     prefix = prefix || '';
     window.$docsify = window.$docsify || {
@@ -18,7 +19,7 @@ window.setupImJoyDocs = function ({
         maxLevel: 5,
         alias: alias,
         repo: repo,
-        homepage: '/README.md',
+        homepage: homepage,
         search: {
             paths: 'auto',
             placeholder: 'Search',

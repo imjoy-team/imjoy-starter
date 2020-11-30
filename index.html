@@ -17,6 +17,7 @@
   <script>
     const GITHUB_USER = 'oeway'
     const GITHUB_REPO = 'imjoy-starter'
+    const homepage = '/README.md'
     const repo = `https://github.com/${GITHUB_USER}/${GITHUB_REPO}`;
     const editGithubUrl = `https://github.com/${GITHUB_USER}/${GITHUB_REPO}/blob/master/`
     const LOCAL_DOMAINS = ["localhost", "127.0.0.1"];
@@ -33,7 +34,8 @@
       setupImJoyDocs({
         repo,
         prefix,
-        editGithubUrl
+        editGithubUrl,
+        homepage
       })
     };
     document.head.appendChild(s);
