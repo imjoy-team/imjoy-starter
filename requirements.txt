@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+matplotlib
+ipywidgets
+imageio
+scikit-image
+imjoy
+imjoy-rpc
+imjoy-elfinder
+imjoy-jupyter-extension
+tifffile
+fsspec
+zarr
+requests
+pymmcore
