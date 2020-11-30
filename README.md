@@ -10,6 +10,7 @@ A Tutorial for Imjoy implmentation. With instruction of this tutorial, you can d
 - <a href='#micro manager imJoy tutorial'>Micro Manager ImJoy Tutorial</a>
 - <a href='#imJoy plugin development'>ImJoy Plugin Development</a>
 - <a href='#imjoy interactive segmentation'>Imjoy Interactive Segmentation</a>
+- <a href='#contributing'>Contributing</a>
 
 &nbsp;
 &nbsp;
@@ -84,3 +85,7 @@ To run the test
 - You can also in run [MyBinder](https://mybinder.org/v2/gh/imjoy-team/imjoy-interactive-segmentation/master?filepath=Tutorial.ipynb)
 
 Feel free to adjust/add more functional buttons. Or do you machine learning project at your customization.
+
+
+## Contributing
+We welcome community contributions to implement and improve imjoy, including bug fixes, improvements to documentation.
