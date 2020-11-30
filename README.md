@@ -1,27 +1,3 @@
-# Interactive documentation for ImJoy
-
-## Development
-```
-npm i docsify-cli -g
-git clone https://github.com/imjoy-team/imjoy-starter
-```
-
-```
-cd imjoy-starter
-docsify serve
-```
-Now go to: http://localhost:3000/
-
-
-### This is a live documentation
-
-Try the code block below, if you click the **Run** button, you should see a popup message saying `Hello from ImJoy!`.
-<!-- ImJoyPlugin: {"type": "iframe", "passive": true, "editor_height": "200px"} -->
-```js
-api.alert("Hello from ImJoy!")
-```
-You can also click the **Edit** button, you should see a code editor. Now you can change `Hello from ImJoy!` to `Hello, <YOUR NAME>`, then click the **Run** button in the toolbar of the code editor.
-
 # Imjoy Starter Tutorial
 A Tutorial for Imjoy implmentation. With instruction of this tutorial, you can do Interactive Image Analysis with ImJoy and Jupyter Notebooks. You can practice by running the tutorial in Jupyter Notebooks or clicking the link and run in MyBinder or Google Colab. 
  
@@ -33,8 +9,7 @@ A Tutorial for Imjoy implmentation. With instruction of this tutorial, you can d
 - <a href='#compare images demo'>Compare Images Demo</a>
 - <a href='#micro manager imJoy tutorial'>Micro Manager ImJoy Tutorial</a>
 - <a href='#imJoy plugin development'>ImJoy Plugin Development</a>
-- <a href='#todo'>Future Work</a>
-- <a href='#references'>Reference</a>
+- <a href='#imjoy interactive segmentation'>Imjoy Interactive Segmentation</a>
 
 &nbsp;
 &nbsp;
