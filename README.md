@@ -3,7 +3,7 @@
 ## Development
 ```
 npm i docsify-cli -g
-git clone https://github.com/oeway/imjoy-starter
+git clone https://github.com/imjoy-team/imjoy-starter
 ```
 
 ```
