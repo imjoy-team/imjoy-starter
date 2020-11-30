@@ -26,11 +26,10 @@ conda activate imjoy-starter
 
 pip install -r requirements.txt
 
-Jupyter Notebook --port 8080
+jupyter notebook --port 8080
 ```
 
 ## Imjoy Jupyter Extension
-============
 This part gives you a brief impression about what tools are available in imjoy, that could ease your image analysis pipeline development.
 - You can try the demo here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/imjoy-team/imjoy-binder-image/master?filepath=imjoy-jupyter-tutorial.ipynb)
 - Run [this jupyter notebook](https://github.com/imjoy-team/imjoy-starter/tree/master/notebooks/imjoy-jupyter-tutorial.ipynb)  
