@@ -66,17 +66,22 @@ window.setupImJoyDocs = function ({
     async function loadResources(prefix) {
 
         for (let url of urls) {
-            if (!url.startsWith('http')) {
-                url = prefix + url;
+            try {
+                if (!url.startsWith('http')) {
+                    url = prefix + url;
+                }
+                if (url.endsWith('.css')) {
+                    const style = document.createElement('link');
+                    style.rel = "stylesheet"
+                    style.href = url;
+                    document.head.appendChild(style);
+                } else if (url.endsWith('js')) {
+                    await loadScript(url)
+                }
+            } catch (e) {
+                console.error(e)
             }
-            if (url.endsWith('.css')) {
-                const style = document.createElement('link');
-                style.rel = "stylesheet"
-                style.href = url;
-                document.head.appendChild(style);
-            } else if (url.endsWith('js')) {
-                await loadScript(url)
-            }
+
         }
     }
 
