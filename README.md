@@ -4,12 +4,12 @@ A Tutorial for Imjoy implmentation. With instruction of this tutorial, you can d
 ### Table of Contents
 - <a href='#installation'>Installation</a>
 - <a href='#imjoy jupyter extension'>Imjoy Jupyter Extension</a>
-- <a href='#kaibu jupyter tutorial'>Kaibu Jupyter Tutorial</a>
+- <a href='#kaibu-jupyter-tutorial'>Kaibu Jupyter Tutorial</a>
 - <a href='#vitessce-image-viewer'>Vitessce Image Viewer</a>
-- <a href='#compare images demo'>Compare Images Demo</a>
-- <a href='#micro manager imJoy tutorial'>Micro Manager ImJoy Tutorial</a>
-- <a href='#imJoy plugin development'>ImJoy Plugin Development</a>
-- <a href='#imjoy interactive segmentation'>Imjoy Interactive Segmentation</a>
+- <a href='#compare-images-demo'>Compare Images Demo</a>
+- <a href='#micro-manager-imJoy-tutorial'>Micro Manager ImJoy Tutorial</a>
+- <a href='#imJoy-plugin-development'>ImJoy Plugin Development</a>
+- <a href='#imjoy-interactive-segmentation'>Imjoy Interactive Segmentation</a>
 - <a href='#contributing'>Contributing</a>
 
 &nbsp;
@@ -72,7 +72,7 @@ You can run this demo in either of the ways in the following:
 Now let's go deeper and learn how to build your interactive tool in imjoy with HTML/CSS/Javascript and Python.
 You can do your test in
 - Follow this [google colab notebook](https://colab.research.google.com/drive/17eQfwRGRxi8BREGnbh7rb2jIr4Lu02CX?usp=sharing)
-- or run [this jupyter notebook](https://github.com/imjoy-team/imjoy-starter/tree/master/notebooks/Tutorial for ImJoy plugin development.ipynb)
+- or run [this jupyter notebook](https://github.com/imjoy-team/imjoy-starter/tree/master/notebooks/Tutorial-for-ImJoy-plugin-development.ipynb)
 
 
 ## Imjoy Interactive Segmentation
@@ -80,7 +80,7 @@ This is a project using imjoy to develop interactive segmentation deep learning 
 You can go to [this repo](https://github.com/imjoy-team/imjoy-interactive-segmentation) to check more into details.
 
 To run the test
-- You can run in [google colab](https://colab.research.google.com/github/imjoy-team/imjoy-interactive-segmentation/blob/master/Tutorial.ipynb) (same colab link as in the repo.
+- You can run in [google colab](https://colab.research.google.com/github/imjoy-team/imjoy-interactive-segmentation/blob/master/Tutorial.ipynb) (same colab link as in the original repo).
 - You can run locally by following the [installation](https://github.com/imjoy-team/imjoy-interactive-segmentation#installation) and then in Jupyter Notebook in the "ImJoy Interactive ML" environment.
 - You can also in run [MyBinder](https://mybinder.org/v2/gh/imjoy-team/imjoy-interactive-segmentation/master?filepath=Tutorial.ipynb)
 
