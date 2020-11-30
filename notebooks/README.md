@@ -1,4 +1,4 @@
-# Jupyter notebooks for ImJoy
+# Jupyter/Colab notebooks for ImJoy
 
 If you want to run the Jupyter notebooks locally, please install the ImJoy-Engine (a wrapper to Jupyter notebooks) via `pip install imjoy`.
 
@@ -30,7 +30,7 @@ If you want to run locally, you will need to:
   * Set the path to your micromanager installation folder and a config file. Follow the instruction in the [this jupyter notebook](https://github.com/imjoy-team/imjoy-starter/tree/master/notebooks/Micro-Manager-ImJoy-Tutorial.ipynb).
 
 
-## Develop web GUI plugin in a notebook
+## Develop web GUI plugins in a notebook
 [This jupyter notebook](https://github.com/imjoy-team/imjoy-starter/tree/master/notebooks/Tutorial-for-ImJoy-plugin-development.ipynb) shows how you can develop web plugins with HTML/CSS/Javascript and works with Python plugins.
 You can also try it in [google colab notebook](https://colab.research.google.com/drive/17eQfwRGRxi8BREGnbh7rb2jIr4Lu02CX?usp=sharing)
 
