@@ -21,7 +21,7 @@
     const GITHUB_REPO = 'imjoy-starter'
     const homepage = '/README.md'
     const repo = `https://github.com/${GITHUB_USER}/${GITHUB_REPO}`;
-    const basePath = window.location.pathname ? '/' : '/' + GITHUB_REPO;
+    const basePath = window.location.pathname === '/' ? '/' : '/' + GITHUB_REPO;
     window.$docsify = window.$docsify || {
       name: "ImJoy Docs",
       nameLink: '/',
