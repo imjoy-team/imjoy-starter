@@ -20,7 +20,7 @@ If you want more instructions, find more info [here](https://github.com/imjoy-te
 
  - Compare images with a custom plugin built with ITK/VTK Viewer: [google colab notebook](https://colab.research.google.com/drive/1w3OvjhPGm7rNtWYcSe4nZjkG_9CCMeBS?usp=sharing), [Jupyter notebook](https://github.com/imjoy-team/imjoy-starter/tree/master/notebooks/CompareImagesDemo.ipynb).
  
- - ImageJ.JS: ImageJ running in the browser
+ - [ImageJ.JS](https://ij.imjoy.io): ImageJ running in the browser ([source](https://github.com/imjoy-team/imagej.js))
 [![launch ImJoy](https://imjoy.io/static/badge/launch-imjoy-badge.svg)](https://imjoy.io/#/app?workspace=imagej&plugin=https://ij.imjoy.io)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/imjoy-team/imagej-js-notebooks/master?filepath=examples%2Fgetting-started.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imjoy-team/imagej-js-notebooks/blob/master/examples/getting-started.ipynb)
