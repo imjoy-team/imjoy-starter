@@ -11,7 +11,7 @@ npm i docsify-cli -g
 
 ```
 git clone https://github.com/imjoy-team/imjoy-starter
-cd imjoy-starter
+cd imjoy-starter/docs
 docsify serve
 ```
 Now go to: http://localhost:3000/
