@@ -1,6 +1,6 @@
 # ImJoy Interactive Documentation
 
-See documentation for [ImJoy Docs](https://docs.imjoy.io).
+See documentation for [ImJoy Docs](https://imjoy-team.github.io/imjoy-docs/).
 
 ### This is a live documentation
 
