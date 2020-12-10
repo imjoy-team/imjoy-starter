@@ -13,7 +13,7 @@ You can also click the **Edit** button, you should see a code editor. Now you ca
 
 You can even embed slides into this docs with ImJoy plugins:
 
-<!-- ImJoyPlugin: {"type": "web-worker", "hide_code_block": true, "startup_mode": "run", "editor_height": "200px"} -->
+<!-- ImJoyPlugin: {"type": "web-worker", "hide_code_block": true, "editor_height": "200px"} -->
 ```js
 api.createWindow({src:"https://gist.github.com/oeway/96cd0f99e87abbcf97d65a3605471130"})
 ```
