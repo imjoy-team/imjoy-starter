@@ -4,6 +4,8 @@ See documentation for [ImJoy Docs](https://docs.imjoy.io).
 
 ### This is a live documentation
 
+Make sure you are reading this page from https://imjoy-team.github.io/imjoy-starter/.
+
 Try the code block below, if you click the **Run** button, you should see a popup message saying `Hello from ImJoy!`.
 <!-- ImJoyPlugin: {"type": "web-worker", "editor_height": "200px"} -->
 ```js
